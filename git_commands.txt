@@ -27,3 +27,10 @@ git branch [branch name]
 -------------
 COMMAND TO STITCH BRANCH
 git checkout <brance_name>
+-------------
+COMMAND TO ADD REMOTE REPO ADDRESS
+git remote add origin https://github.com/Amirtassaduq/git_prac.git
+-------------
+COMMAND TO PUSH LOCAL REPO TO REMOTE
+git push -u origin master
+-------------
