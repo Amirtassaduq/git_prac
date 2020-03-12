@@ -1,0 +1,29 @@
+Git Commands
+COMMAND TO START/INITIALIZE A DIRECTORY FOR Git
+git init
+------------
+git config --global user.name 'user name'
+git config --global user.email 'email'
+------------
+COMMAND TO ADD A FILE TO VCM
+git add [FILE NAME]
+-------------
+COMMAND TO ADD ALL FILES TO VCM
+git add .
+git add *.html
+-------------
+COMMAND TO REMOVE A FILE FROM TRACKING
+git rm --cached [file name]
+-------------
+COMMAND TO SAVE CHANGES 
+git commit
+git commit -m 'description'
+-------------
+COMMAND TO RESET CHANGES TILL LAST COMMIT 
+git reset HEAD <FILE>
+-------------
+COMMAND TO CREATE A BRANCH
+git branch [branch name]
+-------------
+COMMAND TO STITCH BRANCH
+git checkout <brance_name>
